@@ -12,6 +12,10 @@
 		9846BAE42008D4EB002880F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9846BAE22008D4EB002880F2 /* Main.storyboard */; };
 		9846BAE62008D4EB002880F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9846BAE52008D4EB002880F2 /* Assets.xcassets */; };
 		9846BAE92008D4EB002880F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9846BAE72008D4EB002880F2 /* LaunchScreen.storyboard */; };
+		9846BAF12008F129002880F2 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846BAF02008F129002880F2 /* QuizViewController.swift */; };
+		9846BAF32008F13C002880F2 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846BAF22008F13C002880F2 /* ResultViewController.swift */; };
+		9846BAF52008F4F9002880F2 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846BAF42008F4F9002880F2 /* Quiz.swift */; };
+		9846BAF72008F521002880F2 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846BAF62008F521002880F2 /* QuizManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		9846BAE52008D4EB002880F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9846BAE82008D4EB002880F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9846BAEA2008D4EB002880F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9846BAF02008F129002880F2 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		9846BAF22008F13C002880F2 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		9846BAF42008F4F9002880F2 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		9846BAF62008F521002880F2 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				9846BADE2008D4EB002880F2 /* AppDelegate.swift */,
 				9846BAE02008D4EB002880F2 /* ViewController.swift */,
 				9846BAE22008D4EB002880F2 /* Main.storyboard */,
+				9846BAF02008F129002880F2 /* QuizViewController.swift */,
+				9846BAF22008F13C002880F2 /* ResultViewController.swift */,
+				9846BAF42008F4F9002880F2 /* Quiz.swift */,
+				9846BAF62008F521002880F2 /* QuizManager.swift */,
 				9846BAE52008D4EB002880F2 /* Assets.xcassets */,
 				9846BAE72008D4EB002880F2 /* LaunchScreen.storyboard */,
 				9846BAEA2008D4EB002880F2 /* Info.plist */,
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9846BAF12008F129002880F2 /* QuizViewController.swift in Sources */,
+				9846BAF52008F4F9002880F2 /* Quiz.swift in Sources */,
 				9846BAE12008D4EB002880F2 /* ViewController.swift in Sources */,
 				9846BADF2008D4EB002880F2 /* AppDelegate.swift in Sources */,
+				9846BAF72008F521002880F2 /* QuizManager.swift in Sources */,
+				9846BAF32008F13C002880F2 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.phelipelopes.SwiftQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -294,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.phelipelopes.SwiftQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
