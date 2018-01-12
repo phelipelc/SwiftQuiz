@@ -26,7 +26,7 @@ class ResultViewController: UIViewController {
         lbWrong.text = "Perguntas erradas: \(totalAnswer - totalCorrectAnswers)"
         
         let score = totalCorrectAnswers*100/totalAnswer
-        lbScore.text = "\(score)"
+        lbScore.text = "\(score)%"
         // Do any additional setup after loading the view.
     }
 
